@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0FE1976FD172E722F11B6C /* Pods-PriorityScheduler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5557FFBBE1ED8664941DDF3C /* Pods-PriorityScheduler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C062B7C9C24272E23B7C3DB /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1CBA0AC66D929F80EF264 /* Pods-Tests-dummy.m */; };
+		4F8F58218C9F53868A396F7B /* Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A12B4FE9005101D9106B2ED /* Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m */; };
+		5F040F23A1B33B6D40B54380 /* PriorityScheduler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96C2E65CA000497A40317041 /* PriorityScheduler.bundle */; };
+		6BAFA6E48C95307C10BDE478 /* Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC48E5274C02950A39EA0EC /* Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5C731D12AF603708D62096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2977A3E3B0E359625C715E /* Foundation.framework */; };
+		920476187F18A176FFB26DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2977A3E3B0E359625C715E /* Foundation.framework */; };
+		B9DF2C40E21B024F62B8877D /* Pods-Tests-PrioritySchedulerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACD6A46BB5451411CB403F7 /* Pods-Tests-PrioritySchedulerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE093809C601464DF526EAC2 /* Pods-PriorityScheduler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EC7E96C0EFAD0E6B088F1 /* Pods-PriorityScheduler-dummy.m */; };
+		BF80B3D623834A00B12EB6DE /* Pods-Tests-PrioritySchedulerPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F6E221C3CBCB704A8049B /* Pods-Tests-PrioritySchedulerPod-dummy.m */; };
+		E492AE93A059FB1AFC5A5EAA /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25A1EB3DC681FD3DD6EF44E /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63F09260653D15B8F88A677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2977A3E3B0E359625C715E /* Foundation.framework */; };
+		FAA8F785FAF832914307B839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2977A3E3B0E359625C715E /* Foundation.framework */; };
+		FBC698C16CBD13B7A778E6A4 /* PriorityScheduler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F6E8259797ECD0A69F06D /* PriorityScheduler.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AEEE4649C7D64E34DE48C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE81C2577F1B849A9DA6E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0252803BE53B0898D910A87;
+			remoteInfo = "Pods-Tests-PrioritySchedulerPod-PriorityScheduler";
+		};
+		C31783BF9404B27940D42C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE81C2577F1B849A9DA6E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CD41BF2CF5E05A769977AC;
+			remoteInfo = "Pods-Tests-PrioritySchedulerPod";
+		};
+		E401EA9D85639736CD4DB728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE81C2577F1B849A9DA6E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614A2BEFF0E479932B31CDA5;
+			remoteInfo = "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler";
+		};
+		FA7B8AE5B3B34B2988347630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE81C2577F1B849A9DA6E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EFA4278E679511C4720160;
+			remoteInfo = "Pods-PriorityScheduler-PrioritySchedulerPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10B46CCA16EC856C5897C417 /* Pods-PriorityScheduler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PriorityScheduler.modulemap"; sourceTree = "<group>"; };
+		13187D8AFF273F43827B780F /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7AB128E52B1458A637ECD9 /* Pods-Tests-PrioritySchedulerPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PrioritySchedulerPod.xcconfig"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod.xcconfig"; sourceTree = "<group>"; };
+		1ACD6A46BB5451411CB403F7 /* Pods-Tests-PrioritySchedulerPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PrioritySchedulerPod-umbrella.h"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-umbrella.h"; sourceTree = "<group>"; };
+		1F4F6E8259797ECD0A69F06D /* PriorityScheduler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriorityScheduler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F533A29B34E53B4ED300789 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		242604CE405B88025612582E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D2FA00A9792019C53E15C5 /* PrioritySchedulerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrioritySchedulerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA1F3D3021C6CD800DFF51D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41476FE19BD4F281150EAA96 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		446EC7E96C0EFAD0E6B088F1 /* Pods-PriorityScheduler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PriorityScheduler-dummy.m"; sourceTree = "<group>"; };
+		44CEAF7B0FC584619CE82327 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		4734ABA9ABADD2A8A6158615 /* Pods-PriorityScheduler-PrioritySchedulerPod-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriorityScheduler-PrioritySchedulerPod-Private.xcconfig"; sourceTree = "<group>"; };
+		4A12B4FE9005101D9106B2ED /* Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m"; sourceTree = "<group>"; };
+		4CB366EF45CCCAD81AB69098 /* Pods-PriorityScheduler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriorityScheduler-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EB416598A99D561FCE41608 /* Pods-PriorityScheduler-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PriorityScheduler-resources.sh"; sourceTree = "<group>"; };
+		4FC1CBA0AC66D929F80EF264 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		5557FFBBE1ED8664941DDF3C /* Pods-PriorityScheduler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriorityScheduler-umbrella.h"; sourceTree = "<group>"; };
+		5B910A5B158843318896AEEA /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		668189A8F7E1447C38427B25 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6B0AB70199EDC5B114687522 /* Pods-Tests-PrioritySchedulerPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PrioritySchedulerPod-prefix.pch"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-prefix.pch"; sourceTree = "<group>"; };
+		6D2977A3E3B0E359625C715E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F059E79FB6CC297ED057AC9 /* Pods-PriorityScheduler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PriorityScheduler-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75505C2F459BBE4570AA53BE /* Pods-PriorityScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriorityScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		7DAFA3CAE49FA007C8882EC5 /* Pods-PriorityScheduler-PrioritySchedulerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PriorityScheduler-PrioritySchedulerPod.modulemap"; sourceTree = "<group>"; };
+		7F6FEB9683A0F83563C84841 /* Pods-PriorityScheduler-PrioritySchedulerPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriorityScheduler-PrioritySchedulerPod-prefix.pch"; sourceTree = "<group>"; };
+		836F6E221C3CBCB704A8049B /* Pods-Tests-PrioritySchedulerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PrioritySchedulerPod-dummy.m"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-dummy.m"; sourceTree = "<group>"; };
+		96C2E65CA000497A40317041 /* PriorityScheduler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriorityScheduler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2DFFBC9FB1D79551DBBBD4 /* PrioritySchedulerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrioritySchedulerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25A1EB3DC681FD3DD6EF44E /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		B309E0CA353AA57C60E7996F /* Pods-PriorityScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriorityScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		BB3671951ABA05431EE525BA /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3AF4F52204DA563FD68AE7 /* Pods-PriorityScheduler-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriorityScheduler-environment.h"; sourceTree = "<group>"; };
+		BEF350193B531D1DDE9A054B /* Pods-PriorityScheduler-PrioritySchedulerPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriorityScheduler-PrioritySchedulerPod.xcconfig"; sourceTree = "<group>"; };
+		C40242209923021ECB589F56 /* Pods_PriorityScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriorityScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB328C3511A58D389FBD4CFE /* Pods-Tests-PrioritySchedulerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Tests-PrioritySchedulerPod.modulemap"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod.modulemap"; sourceTree = "<group>"; };
+		CCC48E5274C02950A39EA0EC /* Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h"; sourceTree = "<group>"; };
+		D0B0BCE70C4D0C6F8D6B012A /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		D32AAF6C11A608151F3D8154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Tests-PrioritySchedulerPod/Info.plist"; sourceTree = "<group>"; };
+		E079B63B5DF701C8D266DCA4 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		E16BB56E5991F5B1B23F4882 /* Pods-Tests-PrioritySchedulerPod-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PrioritySchedulerPod-Private.xcconfig"; path = "../Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-Private.xcconfig"; sourceTree = "<group>"; };
+		E37ACA2318FCCE8D20BB125E /* Pods-PriorityScheduler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PriorityScheduler-frameworks.sh"; sourceTree = "<group>"; };
+		EF078D257284854EA256DE89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B09ED0D931D3FE54598966 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19512420662020801D3002BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920476187F18A176FFB26DD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CC5E0F0EF436EF0A7F41C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB624792AD6235F0D0A88DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5C731D12AF603708D62096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C9F47E392F13BB5E97702F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63F09260653D15B8F88A677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A589EBA04E43EA466FBF6C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8F785FAF832914307B839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D67A041B8D7397A69A59FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0256FD60263A84821265C8B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3D2A31F4348B30A455975B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BDC59A2A5C276E1435514D4 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF078D257284854EA256DE89 /* Info.plist */,
+				E079B63B5DF701C8D266DCA4 /* Pods-Tests.modulemap */,
+				5B910A5B158843318896AEEA /* Pods-Tests-acknowledgements.markdown */,
+				41476FE19BD4F281150EAA96 /* Pods-Tests-acknowledgements.plist */,
+				4FC1CBA0AC66D929F80EF264 /* Pods-Tests-dummy.m */,
+				D0B0BCE70C4D0C6F8D6B012A /* Pods-Tests-environment.h */,
+				668189A8F7E1447C38427B25 /* Pods-Tests-frameworks.sh */,
+				44CEAF7B0FC584619CE82327 /* Pods-Tests-resources.sh */,
+				B25A1EB3DC681FD3DD6EF44E /* Pods-Tests-umbrella.h */,
+				13187D8AFF273F43827B780F /* Pods-Tests.debug.xcconfig */,
+				3CA1F3D3021C6CD800DFF51D /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		12BAEFC4D8BCFB1B5D27490B /* PrioritySchedulerPod */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED033E53BC2BDEA73F5880 /* Pod */,
+				15DA4210246B8A005F312E98 /* Support Files */,
+			);
+			name = PrioritySchedulerPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		15DA4210246B8A005F312E98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				242604CE405B88025612582E /* Info.plist */,
+				D32AAF6C11A608151F3D8154 /* Info.plist */,
+				7DAFA3CAE49FA007C8882EC5 /* Pods-PriorityScheduler-PrioritySchedulerPod.modulemap */,
+				BEF350193B531D1DDE9A054B /* Pods-PriorityScheduler-PrioritySchedulerPod.xcconfig */,
+				4734ABA9ABADD2A8A6158615 /* Pods-PriorityScheduler-PrioritySchedulerPod-Private.xcconfig */,
+				4A12B4FE9005101D9106B2ED /* Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m */,
+				7F6FEB9683A0F83563C84841 /* Pods-PriorityScheduler-PrioritySchedulerPod-prefix.pch */,
+				CCC48E5274C02950A39EA0EC /* Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h */,
+				CB328C3511A58D389FBD4CFE /* Pods-Tests-PrioritySchedulerPod.modulemap */,
+				1A7AB128E52B1458A637ECD9 /* Pods-Tests-PrioritySchedulerPod.xcconfig */,
+				E16BB56E5991F5B1B23F4882 /* Pods-Tests-PrioritySchedulerPod-Private.xcconfig */,
+				836F6E221C3CBCB704A8049B /* Pods-Tests-PrioritySchedulerPod-dummy.m */,
+				6B0AB70199EDC5B114687522 /* Pods-Tests-PrioritySchedulerPod-prefix.pch */,
+				1ACD6A46BB5451411CB403F7 /* Pods-Tests-PrioritySchedulerPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod";
+			sourceTree = "<group>";
+		};
+		4E8DFCB7E7A2818DD2AF6A48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		549AE64F27D1037367BF3C14 /* Pods-PriorityScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				F7B09ED0D931D3FE54598966 /* Info.plist */,
+				10B46CCA16EC856C5897C417 /* Pods-PriorityScheduler.modulemap */,
+				6F059E79FB6CC297ED057AC9 /* Pods-PriorityScheduler-acknowledgements.markdown */,
+				4CB366EF45CCCAD81AB69098 /* Pods-PriorityScheduler-acknowledgements.plist */,
+				446EC7E96C0EFAD0E6B088F1 /* Pods-PriorityScheduler-dummy.m */,
+				BC3AF4F52204DA563FD68AE7 /* Pods-PriorityScheduler-environment.h */,
+				E37ACA2318FCCE8D20BB125E /* Pods-PriorityScheduler-frameworks.sh */,
+				4EB416598A99D561FCE41608 /* Pods-PriorityScheduler-resources.sh */,
+				5557FFBBE1ED8664941DDF3C /* Pods-PriorityScheduler-umbrella.h */,
+				75505C2F459BBE4570AA53BE /* Pods-PriorityScheduler.debug.xcconfig */,
+				B309E0CA353AA57C60E7996F /* Pods-PriorityScheduler.release.xcconfig */,
+			);
+			name = "Pods-PriorityScheduler";
+			path = "Target Support Files/Pods-PriorityScheduler";
+			sourceTree = "<group>";
+		};
+		6F3D2A31F4348B30A455975B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D2977A3E3B0E359625C715E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93272561F6DABC205914DB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40242209923021ECB589F56 /* Pods_PriorityScheduler.framework */,
+				BB3671951ABA05431EE525BA /* Pods_Tests.framework */,
+				1F4F6E8259797ECD0A69F06D /* PriorityScheduler.bundle */,
+				96C2E65CA000497A40317041 /* PriorityScheduler.bundle */,
+				9C2DFFBC9FB1D79551DBBBD4 /* PrioritySchedulerPod.framework */,
+				28D2FA00A9792019C53E15C5 /* PrioritySchedulerPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7ED033E53BC2BDEA73F5880 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4E8DFCB7E7A2818DD2AF6A48 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C7ED5EF2DF2082516BC4935B = {
+			isa = PBXGroup;
+			children = (
+				1F533A29B34E53B4ED300789 /* Podfile */,
+				EA86115C184F383059696573 /* Development Pods */,
+				0256FD60263A84821265C8B3 /* Frameworks */,
+				93272561F6DABC205914DB31 /* Products */,
+				F79181DF48B56DC81E014980 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA86115C184F383059696573 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12BAEFC4D8BCFB1B5D27490B /* PrioritySchedulerPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F79181DF48B56DC81E014980 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				549AE64F27D1037367BF3C14 /* Pods-PriorityScheduler */,
+				0BDC59A2A5C276E1435514D4 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D4301825C2AD75780CF3532 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DF2C40E21B024F62B8877D /* Pods-Tests-PrioritySchedulerPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F35CFC5777D938E0D8000BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAFA6E48C95307C10BDE478 /* Pods-PriorityScheduler-PrioritySchedulerPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58F195F8EE66459642F85B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E492AE93A059FB1AFC5A5EAA /* Pods-Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93865F9B0125732D3BC5375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0FE1976FD172E722F11B6C /* Pods-PriorityScheduler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20CD41BF2CF5E05A769977AC /* Pods-Tests-PrioritySchedulerPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2271DB93CAF909D4E6FBB2EC /* Build configuration list for PBXNativeTarget "Pods-Tests-PrioritySchedulerPod" */;
+			buildPhases = (
+				ACDBBB1BC2E478BC0F05C021 /* Sources */,
+				19512420662020801D3002BD /* Frameworks */,
+				6FA03750A15393B3758DA9C9 /* Resources */,
+				1D4301825C2AD75780CF3532 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65F99C0EFF77468D10452C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-PrioritySchedulerPod";
+			productName = "Pods-Tests-PrioritySchedulerPod";
+			productReference = 9C2DFFBC9FB1D79551DBBBD4 /* PrioritySchedulerPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B185D3045D6B379B53CAB83 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B98B4DBD611173F9DF617B /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				A3DDDD16E1788C7AA63EBF71 /* Sources */,
+				4EB624792AD6235F0D0A88DA /* Frameworks */,
+				A58F195F8EE66459642F85B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8FFE598D364072531A5A95 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = BB3671951ABA05431EE525BA /* Pods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		614A2BEFF0E479932B31CDA5 /* Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225F28E26B11A6011B4807F8 /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler" */;
+			buildPhases = (
+				07657E610F76DDAAB41525EA /* Sources */,
+				E7D67A041B8D7397A69A59FA /* Frameworks */,
+				56F584E045795008B67570F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler";
+			productName = "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler";
+			productReference = 1F4F6E8259797ECD0A69F06D /* PriorityScheduler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		76EFA4278E679511C4720160 /* Pods-PriorityScheduler-PrioritySchedulerPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A961C93C7D7D095D24DFF06B /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler-PrioritySchedulerPod" */;
+			buildPhases = (
+				62DCFDF247DD0B4909FD1A02 /* Sources */,
+				A589EBA04E43EA466FBF6C4C /* Frameworks */,
+				7952DFBFCB2772BE25EBF225 /* Resources */,
+				9F35CFC5777D938E0D8000BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1426D38EC66C44A34CFDC9 /* PBXTargetDependency */,
+			);
+			name = "Pods-PriorityScheduler-PrioritySchedulerPod";
+			productName = "Pods-PriorityScheduler-PrioritySchedulerPod";
+			productReference = 28D2FA00A9792019C53E15C5 /* PrioritySchedulerPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2BB83A07644D02B10F180B3 /* Pods-PriorityScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C8DE6F6FBE0E1B8C78B214 /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler" */;
+			buildPhases = (
+				A004C87F3D2F676576F4F4A7 /* Sources */,
+				77C9F47E392F13BB5E97702F /* Frameworks */,
+				E93865F9B0125732D3BC5375 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B2A71AD57D77F2C572B60E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PriorityScheduler";
+			productName = "Pods-PriorityScheduler";
+			productReference = C40242209923021ECB589F56 /* Pods_PriorityScheduler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0252803BE53B0898D910A87 /* Pods-Tests-PrioritySchedulerPod-PriorityScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5A01550726155EDF13569F /* Build configuration list for PBXNativeTarget "Pods-Tests-PrioritySchedulerPod-PriorityScheduler" */;
+			buildPhases = (
+				ED84947A9BBBE38F5C0AA273 /* Sources */,
+				27CC5E0F0EF436EF0A7F41C4 /* Frameworks */,
+				B1DAA8D1BD471A5D7E142875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-PrioritySchedulerPod-PriorityScheduler";
+			productName = "Pods-Tests-PrioritySchedulerPod-PriorityScheduler";
+			productReference = 96C2E65CA000497A40317041 /* PriorityScheduler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE81C2577F1B849A9DA6E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A1EBCE54B6EB0BC74CA25696 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7ED5EF2DF2082516BC4935B;
+			productRefGroup = 93272561F6DABC205914DB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BB83A07644D02B10F180B3 /* Pods-PriorityScheduler */,
+				76EFA4278E679511C4720160 /* Pods-PriorityScheduler-PrioritySchedulerPod */,
+				614A2BEFF0E479932B31CDA5 /* Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler */,
+				4B185D3045D6B379B53CAB83 /* Pods-Tests */,
+				20CD41BF2CF5E05A769977AC /* Pods-Tests-PrioritySchedulerPod */,
+				F0252803BE53B0898D910A87 /* Pods-Tests-PrioritySchedulerPod-PriorityScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F584E045795008B67570F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA03750A15393B3758DA9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F040F23A1B33B6D40B54380 /* PriorityScheduler.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7952DFBFCB2772BE25EBF225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC698C16CBD13B7A778E6A4 /* PriorityScheduler.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DAA8D1BD471A5D7E142875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07657E610F76DDAAB41525EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DCFDF247DD0B4909FD1A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8F58218C9F53868A396F7B /* Pods-PriorityScheduler-PrioritySchedulerPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A004C87F3D2F676576F4F4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE093809C601464DF526EAC2 /* Pods-PriorityScheduler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DDDD16E1788C7AA63EBF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C062B7C9C24272E23B7C3DB /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBBB1BC2E478BC0F05C021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80B3D623834A00B12EB6DE /* Pods-Tests-PrioritySchedulerPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED84947A9BBBE38F5C0AA273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8FFE598D364072531A5A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PrioritySchedulerPod";
+			target = 20CD41BF2CF5E05A769977AC /* Pods-Tests-PrioritySchedulerPod */;
+			targetProxy = C31783BF9404B27940D42C44 /* PBXContainerItemProxy */;
+		};
+		4B2A71AD57D77F2C572B60E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PriorityScheduler-PrioritySchedulerPod";
+			target = 76EFA4278E679511C4720160 /* Pods-PriorityScheduler-PrioritySchedulerPod */;
+			targetProxy = FA7B8AE5B3B34B2988347630 /* PBXContainerItemProxy */;
+		};
+		BD1426D38EC66C44A34CFDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler";
+			target = 614A2BEFF0E479932B31CDA5 /* Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler */;
+			targetProxy = E401EA9D85639736CD4DB728 /* PBXContainerItemProxy */;
+		};
+		F65F99C0EFF77468D10452C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PrioritySchedulerPod-PriorityScheduler";
+			target = F0252803BE53B0898D910A87 /* Pods-Tests-PrioritySchedulerPod-PriorityScheduler */;
+			targetProxy = B6AEEE4649C7D64E34DE48C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		102F9DF3906A05258B075174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4734ABA9ABADD2A8A6158615 /* Pods-PriorityScheduler-PrioritySchedulerPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Pods-PriorityScheduler-PrioritySchedulerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Pods-PriorityScheduler-PrioritySchedulerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PrioritySchedulerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		244539A7A82EFBC6037C83C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75505C2F459BBE4570AA53BE /* Pods-PriorityScheduler.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PriorityScheduler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PriorityScheduler/Pods-PriorityScheduler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3110895340B9873B2DA013C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B309E0CA353AA57C60E7996F /* Pods-PriorityScheduler.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PriorityScheduler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PriorityScheduler/Pods-PriorityScheduler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		509E99DDA39A12B1BFD3F7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16BB56E5991F5B1B23F4882 /* Pods-Tests-PrioritySchedulerPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PrioritySchedulerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58AE416EB16305C7F37F8BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PriorityScheduler";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		74EC51777904BF20CE3413C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA1F3D3021C6CD800DFF51D /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78BF2BC24468C03010710D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4734ABA9ABADD2A8A6158615 /* Pods-PriorityScheduler-PrioritySchedulerPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Pods-PriorityScheduler-PrioritySchedulerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PriorityScheduler-PrioritySchedulerPod/Pods-PriorityScheduler-PrioritySchedulerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PrioritySchedulerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B70E42FCDDECC291EA2F42FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BBA18FC08B023087E88FD901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1D1448C62EB7F90A86646CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13187D8AFF273F43827B780F /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C92AFF17729E3986EF652BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D881C7BB3A7F6AD696950B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PriorityScheduler";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EC4ECB83B51D8D9ECD52EB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PriorityScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FA61D07817DC9A47C8050F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16BB56E5991F5B1B23F4882 /* Pods-Tests-PrioritySchedulerPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-PrioritySchedulerPod/Pods-Tests-PrioritySchedulerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PrioritySchedulerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B98B4DBD611173F9DF617B /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D1448C62EB7F90A86646CA /* Debug */,
+				74EC51777904BF20CE3413C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225F28E26B11A6011B4807F8 /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler-PrioritySchedulerPod-PriorityScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AE416EB16305C7F37F8BF9 /* Debug */,
+				D881C7BB3A7F6AD696950B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2271DB93CAF909D4E6FBB2EC /* Build configuration list for PBXNativeTarget "Pods-Tests-PrioritySchedulerPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509E99DDA39A12B1BFD3F7C4 /* Debug */,
+				FA61D07817DC9A47C8050F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5A01550726155EDF13569F /* Build configuration list for PBXNativeTarget "Pods-Tests-PrioritySchedulerPod-PriorityScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92AFF17729E3986EF652BED /* Debug */,
+				EC4ECB83B51D8D9ECD52EB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C8DE6F6FBE0E1B8C78B214 /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244539A7A82EFBC6037C83C0 /* Debug */,
+				3110895340B9873B2DA013C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EBCE54B6EB0BC74CA25696 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70E42FCDDECC291EA2F42FA /* Debug */,
+				BBA18FC08B023087E88FD901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A961C93C7D7D095D24DFF06B /* Build configuration list for PBXNativeTarget "Pods-PriorityScheduler-PrioritySchedulerPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102F9DF3906A05258B075174 /* Debug */,
+				78BF2BC24468C03010710D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE81C2577F1B849A9DA6E8C /* Project object */;
+}

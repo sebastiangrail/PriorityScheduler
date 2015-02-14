@@ -1,0 +1,25 @@
+{
+  "name": "PrioritySchedulerPod",
+  "version": "0.1.0",
+  "summary": "A short description of PriorityScheduler.",
+  "description": "                       An optional longer description of PriorityScheduler\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PriorityScheduler",
+  "license": "MIT",
+  "authors": {
+    "Sebastian Grail": "sgrail@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PriorityScheduler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PriorityScheduler": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

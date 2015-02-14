@@ -1,0 +1,6 @@
+framework module PrioritySchedulerPod {
+  umbrella header "Pods-Tests-PrioritySchedulerPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

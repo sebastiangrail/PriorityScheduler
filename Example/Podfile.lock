@@ -1,0 +1,14 @@
+PODS:
+  - PrioritySchedulerPod (0.1.0)
+
+DEPENDENCIES:
+  - PrioritySchedulerPod (from `../`)
+
+EXTERNAL SOURCES:
+  PrioritySchedulerPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PrioritySchedulerPod: 7d755a35b724b0b0c8b8003f067213b8ac7330a9
+
+COCOAPODS: 0.36.0.beta.2

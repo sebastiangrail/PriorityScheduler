@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "PriorityScheduler"
+  s.name             = "PrioritySchedulerPod"
   s.version          = "0.1.0"
   s.summary          = "A short description of PriorityScheduler."
   s.description      = <<-DESC
@@ -24,8 +24,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PriorityScheduler.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
+
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
