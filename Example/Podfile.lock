@@ -1,5 +1,13 @@
 PODS:
-  - PrioritySchedulerPod (0.1.0)
+  - PrioritySchedulerPod (0.1.0):
+    - ReactiveCocoa (~> 2.4)
+  - ReactiveCocoa (2.4.4):
+    - ReactiveCocoa/UI (= 2.4.4)
+  - ReactiveCocoa/Core (2.4.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.4)
+  - ReactiveCocoa/UI (2.4.4):
+    - ReactiveCocoa/Core
 
 DEPENDENCIES:
   - PrioritySchedulerPod (from `../`)
@@ -9,6 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PrioritySchedulerPod: 7d755a35b724b0b0c8b8003f067213b8ac7330a9
+  PrioritySchedulerPod: c2c5dfab6a5a8d8da6d9433da0d30b383ef12f6b
+  ReactiveCocoa: 31119068e3dde866bd257cf74e1f06b4023bf387
 
 COCOAPODS: 0.36.0.beta.2

@@ -21,5 +21,10 @@
     "PriorityScheduler": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "ReactiveCocoa": [
+      "~> 2.4"
+    ]
   }
 }
