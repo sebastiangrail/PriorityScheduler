@@ -32,7 +32,7 @@ public class OperationManager <T,U> {
 	}
 	
 	func scheduleNext () -> () {
-		if var op = operationTree.find({ !$0.scheduled }) {
+		if var op = operationTree.find({ !$0.scheduled })?.value {
 			op.scheduled = true
 			queue.addOperationWithBlock({
 				let x = op.backgroundWork(op.input)

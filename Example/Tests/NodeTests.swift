@@ -123,5 +123,20 @@ class NodeTests: XCTestCase {
 		XCTAssertEqual(changesHelper.changes.count, 3, "")
 		XCTAssertEqual(changesHelper.changes[2], NodeChange.DidRemoveChild(a, root), "")
 	}
+	
+	func testFind () {
+		let left = Node(value: 1)
+		let right = Node(value: 2)
+		let left_one = Node(value: 3)
+		left_one.addChild(Node(value: -1))
+		let left_two = Node(value: 4)
+		left.addChild(left_one)
+		left.addChild(left_two)
+		root.addChild(left)
+		root.addChild(right)
+		
+		let node = root.find({ $0 > 0 })
+		XCTAssertEqual(node!.value, 3, "")
+	}
 
 }

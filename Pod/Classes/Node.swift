@@ -118,14 +118,14 @@ public class Node <T> : NSObject {
 	
 	/// Finds a node that satisfies the predicate using depth-first traversal
 	/// Returns nil if no node in the tree satisfies the predicate
-	func find (p: T -> Bool) -> T? {
+	public func find (p: T -> Bool) -> Node<T>? {
 		for child in self.children {
 			if let result = child.find(p) {
 				return result
 			}
 		}
-		if p(self._value.value) {
-			return self._value.value
+		if p(self.value) {
+			return self
 		} else {
 			return nil
 		}
