@@ -23,7 +23,7 @@ public class OperationManager <T,U> {
 			.combineLatestWith(operationTree.nodeDidChangeSignal)
 			.subscribeNext({ [weak self] tuple in
 				if let manager = self {
-					let (operationCount, _): (Int, Node<Operation<T,U>>) = convertTwoTuple(tuple as RACTuple)
+					let (operationCount, _): (Int, AnyObject) = convertTwoTuple(tuple as RACTuple)
 					if operationCount < manager.queue.maxConcurrentOperationCount {
 						manager.scheduleNext()
 					}

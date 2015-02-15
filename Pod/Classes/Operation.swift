@@ -13,7 +13,7 @@ public class Operation <T,U> {
 	public let input: T
 	let backgroundWork: T -> U
 	let callback: U -> ()
-	var scheduled: Bool = false
+	public var scheduled: Bool = false
 	
 	public init (input: T, work: T -> U, callback: U -> ()) {
 		self.input = input
