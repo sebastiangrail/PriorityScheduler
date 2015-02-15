@@ -48,10 +48,10 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'PrioritySchedulerPod.framework'
+  install_framework 'PriorityScheduler.framework'
   install_framework 'ReactiveCocoa.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'PrioritySchedulerPod.framework'
+  install_framework 'PriorityScheduler.framework'
   install_framework 'ReactiveCocoa.framework'
 fi

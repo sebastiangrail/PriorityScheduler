@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PrioritySchedulerPod
+## PriorityScheduler
 
 Copyright (c) 2015 Sebastian Grail <sgrail@gmail.com>
 
