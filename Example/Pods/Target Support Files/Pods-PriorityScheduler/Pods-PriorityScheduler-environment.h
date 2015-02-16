@@ -6,11 +6,11 @@
 // project.
 
 
-// PriorityScheduler
-#define COCOAPODS_POD_AVAILABLE_PriorityScheduler
-#define COCOAPODS_VERSION_MAJOR_PriorityScheduler 0
-#define COCOAPODS_VERSION_MINOR_PriorityScheduler 1
-#define COCOAPODS_VERSION_PATCH_PriorityScheduler 0
+// PrioritySchedulerPod
+#define COCOAPODS_POD_AVAILABLE_PrioritySchedulerPod
+#define COCOAPODS_VERSION_MAJOR_PrioritySchedulerPod 0
+#define COCOAPODS_VERSION_MINOR_PrioritySchedulerPod 1
+#define COCOAPODS_VERSION_PATCH_PrioritySchedulerPod 0
 
 // ReactiveCocoa
 #define COCOAPODS_POD_AVAILABLE_ReactiveCocoa

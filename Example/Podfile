@@ -1,9 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'PriorityScheduler', :exclusive => true do
-  pod "PriorityScheduler", :path => "../"
+  pod "PrioritySchedulerPod", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  pod "PriorityScheduler", :path => "../"
+  pod "PrioritySchedulerPod", :path => "../"
 end
